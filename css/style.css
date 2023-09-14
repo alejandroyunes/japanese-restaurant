@@ -254,6 +254,29 @@ header .intro-text {
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
+
+/* Chef Section */
+#chef {
+	padding: 0;
+	background: #f6f6f6;
+}
+#chef h2::after {
+	bottom: 0;
+	margin-left: 0;
+	left: 0;
+}
+#chef .chef-text {
+	padding: 80px 0;
+}
+#chef .chef-img {
+	background: #444 url(../img/chef.jpg) center center no-repeat;
+	background-size: cover;
+	height: 570px;
+}
+#chef p {
+	line-height: 24px;
+	margin: 15px 0 30px;
+}
 /* Menu Section */
 #restaurant-menu {
 	padding: 100px 0 60px 0;
