@@ -20,13 +20,6 @@ h2 {
 	margin-bottom: 15px;
 	padding-bottom: 20px;
 }
-.color-heading-custom  {
-	color: #fff;
-	font-size: 03em;
-	
-	
-
-}
 h2::after {
 	position: absolute;
 	content: "";
@@ -191,7 +184,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 07em;
 	font-weight: 400;
 	margin-top: 0;
-	
+	@media screen and (max-width: 768px) {
+		font-size: 03em;	
+	}
 }
 .intro span {
 	color: #a7c44c;
@@ -199,9 +194,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro p {
 	color: #fff;
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 400;
 	margin-top: 150px;
+}
+.intro h3 {
+	color: #fff;
 }
 header .intro-text {
 	padding-top: 200px;
